@@ -78,6 +78,7 @@ article > p {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 0px 0px 14px rgba(0, 0, 0, 0.589);
 }
 
 .paragrafodaimagem {
