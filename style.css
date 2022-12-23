@@ -9,6 +9,11 @@
     font-size: 1em;
 }
 
+body, html {
+    min-height: 100%;
+    background-color: silver;
+}
+
 header > h1 {
     font-family: 'Passion One', cursive;
     color: white;
@@ -47,6 +52,12 @@ header {
     margin: auto;
 }
 
+section article {
+    background-color: white;padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 30px;
+}
+
 article > p {
     font-family: 'Sriracha', cursive;
     text-align: left;
@@ -54,21 +65,19 @@ article > p {
     line-height: 2em;
 }
 
-article {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 30px;
+#first {
+    background-image: url(imagens/background001.jpg);
+}
+
+#second {
+    background-image: url(imagens/background002.jpg);
 }
 
 .img {
-    background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh;
-    padding-top: 7vh;
-
 }
 
 .paragrafodaimagem {
